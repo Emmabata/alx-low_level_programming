@@ -13,6 +13,7 @@ int main(void)
 			putchar(letter);
 
 	putchar('\n');
-
+	/*have to always return 0.*/
 	return (0);
 }
+
