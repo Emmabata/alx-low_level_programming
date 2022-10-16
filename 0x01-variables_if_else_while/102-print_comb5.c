@@ -24,15 +24,10 @@ int main(void)
 				continue;
 			putchar(',');
 			putchar(' ');
-		
-		}
+
+	}
 
 		putchar('\n');
 
-		else
-		{
-		
 		return (0);
-	
-	}
- }
+}
