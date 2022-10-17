@@ -29,8 +29,6 @@ int main(void)
 		}
 
 		putchar('\n');
-
-		else
 		
-		{return (0);}
+		return (0);
 }
