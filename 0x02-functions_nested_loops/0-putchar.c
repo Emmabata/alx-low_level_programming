@@ -1,14 +1,20 @@
-#include <stdio.h>
-#include <main.h>
+#include "main.h"
 
 /**
- * main - Prints a program -putchar using putchar().
+ * main - Entry point.Prints a program -putchar using putchar().
  *
  * Return: Always return 0.
  */
 int main(void)
 {
-	putchar("_putchar\n");
+	char *text = "_putchar";
+
+	while (*text)
+	{
+		_putchar(*text);
+		text++;
+	}
+	_putchar('\n');
 
 	return (0);
 }
