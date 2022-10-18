@@ -11,10 +11,10 @@ int main(void)
 
 	while (*text)
 	{
-		_putchar(*text);
+		"_putchar"(*text);
 		text++;
 	}
-	_putchar('\n');
+	"_putchar"('\n');
 
 	return (0);
 }
