@@ -1,20 +1,19 @@
 #include "main.h"
 
 /**
- * main - Entry point
- *
- * Return: Always return 0.
+ * main - prints _putchar and a new line
+ * Return: Always 0
  */
 int main(void)
 {
-	char *text = _putchar;
-
-	while (*text)
-	{
-		_putchar(*text);
-		text++;
-	}
-	_putchar('\n');
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
 
 	return (0);
 }
